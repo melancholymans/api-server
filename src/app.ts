@@ -5,7 +5,7 @@ app.get("/",(req,res) => {
     res.send("Hello VS Code!!!!!");
 });
 app.get("/foo",(req,res) => {
-    res.send("竹森");
+    res.send("foo");
 });
 export {app};
 
@@ -24,3 +24,4 @@ const tasks:Task[] = [
 app.get('/tasks',(req,res)=>{
     res.json(tasks);
 });
+
